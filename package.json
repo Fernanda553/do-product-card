@@ -52,6 +52,11 @@
         }
     ],
     "devDependencies": {
+        "@babel/preset-env": "^7.25.4",
+        "@babel/preset-react": "^7.24.7",
+        "babel-jest": "^29.7.0",
+        "react-test-renderer": "^18.3.1",
+        "@types/react-test-renderer": "^18.3.0",
         "@rollup/plugin-image": "^3.0.3",
         "@size-limit/preset-small-lib": "^11.1.4",
         "@types/react": "^18.3.4",
@@ -73,13 +78,7 @@
         "fernanda",
         "nuñez"
     ],
-    "dependencies": {
-        "@babel/preset-env": "^7.25.4",
-        "@babel/preset-react": "^7.24.7",
-        "@types/react-test-renderer": "^18.3.0",
-        "babel-jest": "^29.7.0",
-        "react-test-renderer": "^18.3.1"
-    },
+    "dependencies": {},
     "jest": {
         "moduleNameMapper": {
             "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
